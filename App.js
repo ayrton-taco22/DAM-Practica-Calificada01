@@ -22,8 +22,8 @@ function App() {
   return(
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Lista" component={Home}/>
-        <Stack.Screen name="Detalles" component={vistaDetalles}/>
+        <Stack.Screen name="Lista de peliculas" component={Home}/>
+        <Stack.Screen name="Detalles de pelicula" component={vistaDetalles}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

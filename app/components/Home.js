@@ -45,7 +45,7 @@ function Item(props){
                 <View style={styles.contenedorButton}>
                     <Button 
                         title="Ver detalles"
-                        onPress={ () => props.navigation.navigate('Detalles', {
+                        onPress={ () => props.navigation.navigate('Detalles de pelicula', {
                             titulo: props.titulo,
                             imagen: props.image,
                             texto: props.resumen
@@ -85,4 +85,4 @@ function Home({ navigation }) {
     );
 }
 
-export default Home
+export default Home;
